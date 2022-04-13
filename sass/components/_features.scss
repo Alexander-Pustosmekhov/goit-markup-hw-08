@@ -1,0 +1,59 @@
+// features
+// Блок
+.features {
+  padding: 94px 0px;
+}
+
+// Элемент
+.features__title {
+  display: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+// Элемент
+.features__list {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+// Элемент
+.features__item {
+  width: calc((1170px - 90px) / 4);
+}
+
+// Элемент
+.features__icon {
+  height: 120px;
+  background-color: $team-background-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Элемент
+.features__name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+// Элемент
+.features__text {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $secondary-text-color;
+}

@@ -1,0 +1,87 @@
+// features
+// Блок
+.features {
+  padding: 60px 0px;
+
+  @media screen and (min-width: 1200px) {
+    padding: 94px 0px;
+  }
+}
+
+// Элемент
+.features__title {
+  display: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+// Элемент
+.features__list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width: 1199px) {
+    flex-wrap: wrap;
+  }
+}
+
+// Элемент
+.features__item {
+  &:not(:first-child) {
+    @media screen and (max-width: 767px) {
+      margin-top: 30px;
+    }
+  }
+
+  &:nth-child(-n + 2) {
+    @media screen and (min-width: 768px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    width: calc((768px - 60px) / 2);
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: calc((1170px - 90px) / 4);
+  }
+}
+
+// Элемент
+.features__icon {
+  height: 120px;
+  background-color: $team-background-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// Элемент
+.features__name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+}
+
+// Элемент
+.features__text {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $secondary-text-color;
+}

@@ -1,0 +1,36 @@
+@import "./utils/variables";
+@import "./utils/reset-css";
+@import "./utils/placeholders";
+
+// @import "./components/common";
+@import "./components/mobile/common-mobile";
+
+// @import "./components/header";
+// @import "./components/mobile/header-mobile";
+
+// @import "./components/logo";
+@import "./components/mobile/logo-mobile";
+
+// @import "./components/hero";
+@import "./components/hero";
+
+// @import "./components/features";
+@import "./components/mobile/features-mobile";
+
+// @import "./components/services";
+@import "./components/mobile/services-mobile";
+
+// @import "./components/team";
+@import "./components/mobile/team-mobile";
+
+// @import "./components/clients";
+@import "./components/mobile/clients-mobile";
+
+// @import "./components/footer";
+@import "./components/mobile/footer-mobile";
+
+// @import "./components/modal";
+@import "./components/mobile/modal-mobile";
+
+// @import "./components/portfolio";
+@import "./components/mobile/portfolio-mobile";

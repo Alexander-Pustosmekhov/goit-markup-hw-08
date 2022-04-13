@@ -1,0 +1,58 @@
+// services
+// Блок
+.services {
+  padding-top: 0px;
+  padding-bottom: 94px;
+}
+
+// Элемент
+.services__title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+// Элемент
+.services__list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  list-style: none;
+}
+
+// Элемент
+.services__item {
+  position: relative;
+}
+
+// Элемент
+.services__image {
+  display: block;
+}
+
+// Элемент
+.services__description {
+  background-color: rgba(47, 48, 58, 0.8);
+  display: flex;
+  justify-content: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 100%;
+
+  position: absolute;
+  bottom: 0px;
+}
+
+// Элемент
+.services__name {
+  color: $white-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin: 0;
+}

@@ -1,0 +1,221 @@
+// footer
+// Блок
+.footer {
+  background-color: $hero-background-color;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+// Микс
+.footer__container {
+  margin-bottom: 0;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+.footer__wrap {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width: 1199px) {
+    padding-left: 76px;
+    padding-right: 89px;
+    margin-bottom: 60px;
+  }
+}
+
+// Элемент
+.footer__contacts {
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+  }
+}
+
+// Элемент
+.footer__address {
+  margin-top: 20px;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 60px;
+  }
+}
+
+// Элемент
+.footer__address-item:not(:last-child) {
+  margin-bottom: 8px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 9px;
+  }
+}
+
+// Элемент
+.footer__address-link {
+  color: $contacts-text-color;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
+  // Модификатор
+  &--color {
+    color: $white-color;
+  }
+}
+
+// footer-follow
+// Блок
+.footer-follow {
+  max-width: 206px;
+
+  @media screen and (max-width: 767px) {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+  }
+}
+
+// Элемент
+.footer-follow__slogan {
+  color: $white-color;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+// Элемент
+.footer-follow__list {
+  display: flex;
+  width: 206px;
+  justify-content: space-between;
+}
+
+// Элемент
+.footer-follow__link {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  padding: 12px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}
+
+// Элемент
+.footer-follow__icon {
+  fill: $white-color;
+}
+
+.footer-form {
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// footer-form
+// Элемент
+.footer-form__slogan {
+  margin-top: 0;
+  margin-bottom: 20px;
+  display: block;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: $white-color;
+}
+
+// Элемент
+.footer-form__field {
+  display: block;
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  background-color: inherit;
+
+  font-size: 16px;
+  line-height: 1.25;
+  color: $contacts-text-color;
+
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 358px;
+    margin-right: 12px;
+    display: inline-flex;
+  }
+}
+
+// Элемент
+.footer-form__button {
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  color: $white-color;
+  background-color: $accent-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+// Элемент
+.footer-form__icon {
+  margin-left: 10px;
+}

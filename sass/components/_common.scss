@@ -1,0 +1,30 @@
+:root {
+  --primary-text-color: #212121;
+  --text-color: #757575;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --contacts-text-color: rgba(255, 255, 255, 0.6);
+  --hero-background-color: #2f303a;
+  --team-background-color: #f5f4fa;
+  --icon-color: #afb1b8;
+  --example-description-color: rgba(33, 150, 243, 0.9);
+  --modal-overlay-color: rgba(0, 0, 0, 0.2);
+  --button-focus-color: #188ce8;
+}
+
+body {
+  color: $primary-text-color;
+  background-color: $white-color;
+
+  font-family: $main-font-family;
+  letter-spacing: 0.03em;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

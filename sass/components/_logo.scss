@@ -1,0 +1,24 @@
+// Блок
+.logo {
+  font-family: $logo-font-family;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: $logo-color;
+  text-decoration: none;
+
+  // Модификатор
+  &--color {
+    color: $white-color;
+  }
+
+  // Элемент
+  &__accent {
+    color: $accent-color;
+  }
+}
+
+// Микс
+.header__logo {
+  margin-right: 93px;
+}
