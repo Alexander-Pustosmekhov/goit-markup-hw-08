@@ -23,16 +23,25 @@
     justify-content: space-between;
   }
 
-  @media screen and (max-width: 1199px) {
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
     padding-left: 76px;
     padding-right: 89px;
+  }
+
+  @media screen and (max-width: 1199px) {
     margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    align-items: baseline;
   }
 }
 
 // Элемент
 .footer__contacts {
-  text-align: center;
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
 
   @media screen and (min-width: 1200px) {
     margin-right: 70px;

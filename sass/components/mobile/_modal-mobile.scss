@@ -23,6 +23,7 @@
 // modal
 // Блок
 .modal {
+  position: relative;
   padding: 40px;
 
   @media screen and (max-width: 479px) {
@@ -93,6 +94,7 @@
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
+  text-align: center;
   color: $primary-text-color;
 }
 
@@ -216,7 +218,7 @@
 
   font-size: 12px;
   line-height: 1.17;
-  list-style: 0.03em;
+  letter-spacing: 0.03em;
   color: $secondary-text-color;
 
   @media screen and (min-width: 1200px) {

@@ -1,7 +1,5 @@
 // Блок
 .hero {
-  padding-left: 60px;
-  padding-right: 60px;
   padding-top: 118px;
   padding-bottom: 118px;
   margin-left: auto;
@@ -17,6 +15,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  @media screen and (min-width: 480px) {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
 
   @media screen and (min-width: 768px) {
     padding-left: 204px;
