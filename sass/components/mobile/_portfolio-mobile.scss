@@ -98,6 +98,8 @@
   margin-bottom: 30px;
   box-shadow: none;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid #eeeeee;
+  border-top: 0px;
 
   &:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -135,6 +137,7 @@
 // Элемент
 .card-list__link {
   text-decoration: none;
+  height: 100%;
 }
 
 // Элемент
@@ -147,11 +150,8 @@
 .card-list__image {
   // display: inline-block;
   display: block;
-
-  @media screen and (min-width: 768px) {
-    width: 354px;
-    height: 294px;
-  }
+  max-width: 100%;
+  height: auto;
 }
 
 // Элемент
@@ -193,8 +193,6 @@
 // Элемент
 .card-list__text {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
-  border-top: 0px;
 }
 
 // Элемент

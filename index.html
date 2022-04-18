@@ -167,10 +167,9 @@
             <li class="services__item">
               <img
                 class="services__image"
-                src="./images/homework-1/box1.jpg"
+                srcset="./images/service-1.jpg 1x, ./images/service-1@2x.jpg 2x"
+                src="./images/service-1.jpg"
                 alt="Рабочий стол"
-                width="370"
-                height="294"
               />
               <div class="services__description">
                 <p class="services__name">Десктопные приложения</p>
@@ -179,10 +178,9 @@
             <li class="services__item">
               <img
                 class="services__image"
+                srcset="./images/service-2.jpg 1x, ./images/service-2@2x.jpg 2x"
                 src="./images/homework-1/box2.jpg"
                 alt="Ноутбук"
-                width="370"
-                height="294"
               />
               <div class="services__description">
                 <p class="services__name">Мобильные приложения</p>
@@ -191,10 +189,9 @@
             <li class="services__item">
               <img
                 class="services__image"
+                srcset="./images/service-3.jpg 1x, ./images/service-3@2x.jpg 2x"
                 src="./images/homework-1/box3.jpg"
                 alt="Планшетный компьютер"
-                width="370"
-                height="294"
               />
               <div class="services__description">
                 <p class="services__name">Дизайнерские решения</p>
@@ -210,13 +207,34 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list">
             <li class="team__item">
-              <img
-                class="team__photo"
-                src="./images/homework-1/img.jpg"
-                alt="Игорь Демьяненко"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team-1-mob.jpg    1x,
+                    ./images/team-1-mob@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                  sizes="100vw"
+                />
+                <source
+                  srcset="
+                    ./images/team-1-tab.jpg    1x,
+                    ./images/team-1-tab@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width: 1199px)"
+                  sizes="50vw"
+                />
+                <source
+                  srcset="
+                    ./images/team-1.jpg    1x,
+                    ./images/team-1@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                  sizes="25vw"
+                />
+                <img
+                  class="team__photo"
+                  src="./images/team-1-mob.jpg"
+                  alt="Игорь Демьяненко"
+                />
+              </picture>
               <div class="team__description">
                 <h3 class="team__name">Игорь Демьяненко</h3>
                 <p class="team__prof">Product Designer</p>
@@ -261,13 +279,34 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                class="team__photo"
-                src="./images/homework-1/img-1.jpg"
-                alt="Ольга Репина"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team-2-mob.jpg    1x,
+                    ./images/team-2-mob@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                  sizes="100vw"
+                />
+                <source
+                  srcset="
+                    ./images/team-2-tab.jpg    1x,
+                    ./images/team-2-tab@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width: 1199px)"
+                  sizes="50vw"
+                />
+                <source
+                  srcset="
+                    ./images/team-2.jpg    1x,
+                    ./images/team-2@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                  sizes="25vw"
+                />
+                <img
+                  class="team__photo"
+                  src="./images/team-2-mob.jpg"
+                  alt="Ольга Репина"
+                />
+              </picture>
               <div class="team__description">
                 <h3 class="team__name">Ольга Репина</h3>
                 <p class="team__prof">Frontend Developer</p>
@@ -312,13 +351,34 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                class="team__photo"
-                src="./images/homework-1/img-2.jpg"
-                alt="Николай Тарасов"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team-3-mob.jpg    1x,
+                    ./images/team-3-mob@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                  sizes="100vw"
+                />
+                <source
+                  srcset="
+                    ./images/team-3-tab.jpg    1x,
+                    ./images/team-3-tab@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width: 1199px)"
+                  sizes="50vw"
+                />
+                <source
+                  srcset="
+                    ./images/team-3.jpg    1x,
+                    ./images/team-3@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                  sizes="25vw"
+                />
+                <img
+                  class="team__photo"
+                  src="./images/team-3-mob.jpg"
+                  alt="Николай Тарасов"
+                />
+              </picture>
               <div class="team__description">
                 <h3 class="team__name">Николай Тарасов</h3>
                 <p class="team__prof">Marketing</p>
@@ -363,13 +423,34 @@
               </div>
             </li>
             <li class="team__item">
-              <img
-                class="team__photo"
-                src="./images/homework-1/img-3.jpg"
-                alt="Михаил Ермаков"
-                width="270"
-                height="260"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team-4-mob.jpg    1x,
+                    ./images/team-4-mob@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                  sizes="100vw"
+                />
+                <source
+                  srcset="
+                    ./images/team-4-tab.jpg    1x,
+                    ./images/team-4-tab@2x.jpg 2x"
+                  media="(min-width: 768px) and (max-width: 1199px)"
+                  sizes="50vw"
+                />
+                <source
+                  srcset="
+                    ./images/team-4.jpg    1x,
+                    ./images/team-4@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                  sizes="25vw"
+                />
+                <img
+                  class="team__photo"
+                  src="./images/team-4-mob.jpg"
+                  alt="Михаил Ермаков"
+                />
+              </picture>
               <div class="team__description">
                 <h3 class="team__name">Михаил Ермаков</h3>
                 <p class="team__prof">UI Designer</p>
